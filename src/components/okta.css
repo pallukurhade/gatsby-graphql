@@ -4989,22 +4989,12 @@ body ul {
     padding-top: 0.5rem;
     color: inherit;
 }
-
-.css-1l20iue .Speaker-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: var(--theme-ui-colors-lilac100,#CFB1C1);
-    opacity: 0.5;
-    z-index: 5;
-    transition: opacity 0.35s ease-in-out 0s;
-}
-
 .css-1l20iue:hover {
     border-width: 16px;
     border-style: solid;
     border-image: initial;
-    border-color: var(--theme-ui-colors-yellow100,#FAD28C);
+	border-color: var(--theme-ui-colors-yellow100,#FAD28C);
+	background-color: transparent;
 }
 
 .Speaker {
@@ -5025,4 +5015,44 @@ body ul {
 
 #contact .col-8 {
 	margin: 0 auto;
+}
+
+.css-1l20iue .gatsby-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.css-170g9gq {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    filter: grayscale(1);
+}
+
+
+.css-1l20iue:hover {
+    border-width: 16px;
+    border-style: solid;
+    border-image: initial;
+    border-color: var(--theme-ui-colors-yellow100,#FAD28C);
+}
+
+
+.css-1l20iue {
+    display: block;
+    position: relative;
+    height: 236px;
+    width: 236px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 16px solid transparent;
+    transition: all 0.35s ease-in-out 0s;
+    transform: translateZ(0px);
+}
+@media screen and (min-width: 1024px)
+{
+.css-1l20iue {
+    height: 266px;
+    width: 266px;
+}
 }
