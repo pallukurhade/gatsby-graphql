@@ -27,14 +27,8 @@ const Layout = ({ children }) => {
     <div>
    
     <main>
-     <div className="container">
-       <div className="row justify-content-md-center">
-          <div>
-             {children}
-          </div>
-       </div>
-      </div>
-      </main>
+        {children}
+    </main>
      </div>
   )
 }

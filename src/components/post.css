@@ -1,0 +1,19 @@
+/* post.css */
+.post {
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid white;
+  }
+  
+  
+  .post .post-description {
+    font-size: 1.5em;
+  }
+  
+
+  .post a {
+    padding: 16px 24px;
+    text-decoration: none;
+    margin-top: 16px;
+    display: inline-block;
+  }

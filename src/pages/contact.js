@@ -55,10 +55,9 @@ const ContactPage = () => {
 
   const showForm = (
     <Layout>
-    <section id="contact">
-    <div className="container">
-    <div className="row">
-        <div className="col-lg-12 text-center">
+    <div id="contact" className="container">
+    <div className="row justify-content-md-center">
+    <div className="col-lg-12 text-center">
         <h2 className="section-heading text-uppercase">Contact Us</h2>
         </div>
     </div>
@@ -127,7 +126,6 @@ const ContactPage = () => {
     </div>
     </div>
     </div>
-</section> 
 </Layout>
   );
 
