@@ -10,14 +10,20 @@ import "./blogTemplate.css";
    const { title, body } = post;
   
   return (
+
     <Layout>
+    <div className="container">
+  <div className="row justify-content-md-center">
+
     <div className='blogTemplate'>
       <Link to="/">Back to blogs</Link>
       <h1 className="blogTemplate-title">{title}</h1>
       <div className="blogTemplate-posted-by" dangerouslySetInnerHTML={{ __html: body }} />
       </div>
+      </div>
+      </div> 
     </Layout>
-   
+ 
   )
   };
     
