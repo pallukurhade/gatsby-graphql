@@ -5022,3 +5022,7 @@ body ul {
     background: transparent;
     color: inherit;
 }
+
+#contact .col-8 {
+	margin: 0 auto;
+}
