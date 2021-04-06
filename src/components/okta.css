@@ -5034,7 +5034,8 @@ body ul {
     border-width: 16px;
     border-style: solid;
     border-image: initial;
-    border-color: var(--theme-ui-colors-yellow100,#FAD28C);
+	border-color: var(--theme-ui-colors-yellow100,#FAD28C);
+	
 }
 
 
