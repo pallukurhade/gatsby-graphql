@@ -5029,6 +5029,9 @@ body ul {
     filter: grayscale(1);
 }
 
+.css-1l20iue .Speaker-overlay:hover .css-170g9gq {
+   filter: none;
+}
 
 .css-1l20iue:hover {
     border-width: 16px;

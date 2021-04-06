@@ -56,25 +56,24 @@ return (
                         SpeakersParagraph-title css-1nspgyx">Featured Speakers</h3>
                      <div className="Speakers-wrapper">
          
-                        <div aria-label="Open modal" onClick={() => toggle("Julia Louis-Dreyfus", "Actress, Producer and Activist") } role="button" tabindex="0" className="Modal-trigger Speaker css-0">
+                        <div aria-label="modal" onClick={() => toggle("Julia Louis-Dreyfus", "Actress, Producer and Activist") } role="button" tabindex="0" className="Modal-trigger Speaker css-0">
                            <div className="Speaker-image css-1l20iue">
                               <div className="Speaker-overlay"></div>
-                              <div className="css-170g9gq gatsby-image-wrapper" style={{position: "relative", overflow:"hidden" }}>
-                                 <div aria-hidden="true" style={{width: "100%", paddingBottom: "100%"}}></div>
-                                 <img alt="speaker" aria-hidden="true" src="https://www.okta.com/oktane21/static/a79f4c4aed6e38599629f832028840c5/4fe8c/Trevor-Noah_Oktane21-Keynote.jpg" />
-                                 </div>
+                              <div className="css-170g9gq gatsby-image-wrapper">
+                                  <img alt="speaker" aria-hidden="true" src="https://www.okta.com/oktane21/static/a79f4c4aed6e38599629f832028840c5/4fe8c/Trevor-Noah_Oktane21-Keynote.jpg" />
+                                 
+                           </div>
                            </div>
                            <div className="Speaker-bio css-1w7jmmo">
                               <p className="Speaker-name css-1eq6gzc">Julia Louis-Dreyfus</p>
                               <p className="Speaker-info">Actress, Producer and Activist</p>
                            </div>
                         </div>
-                        <div aria-label="Open modal"  onClick={() => toggle("Simone Biles", "World’s Most Decorated Gymnast") } role="button" tabindex="0" className="Modal-trigger Speaker css-0">
+                        <div aria-label="modal"  onClick={() => toggle("Simone Biles", "World’s Most Decorated Gymnast") } role="button" tabindex="0" className="Modal-trigger Speaker css-0">
                            <div className="Speaker-image css-1l20iue">
                               <div className="Speaker-overlay" ></div>
                               <div className="css-170g9gq gatsby-image-wrapper" style={{position: "relative", overflow:"hidden" }}>
-                                 <div aria-hidden="true" style={{width: "100%", paddingBottom: "100%"}}></div>
-                                 <img alt="speaker"  aria-hidden="true" src="https://www.okta.com/oktane21/static/cde36af318d322bdafbe3e563a75ad8a/14b42/jld-headshot3.jpg"/>
+                                   <img alt="speaker"  aria-hidden="true" src="https://www.okta.com/oktane21/static/cde36af318d322bdafbe3e563a75ad8a/14b42/jld-headshot3.jpg"/>
                                
                               </div>
                            </div>
@@ -83,12 +82,11 @@ return (
                               <p className="Speaker-info">World’s Most Decorated Gymnast</p>
                            </div>
                         </div>
-                        <div aria-label="Open modal"  onClick={() => toggle("Julia Louis-Dreyfus", "Actress, Producer and Activist") }  role="button" tabindex="0" className="Modal-trigger Speaker css-0">
+                        <div aria-label="modal"  onClick={() => toggle("Julia Louis-Dreyfus", "Actress, Producer and Activist") }  role="button" tabindex="0" className="Modal-trigger Speaker css-0">
                         <div className="Speaker-image css-1l20iue">
                            <div className="Speaker-overlay"></div>
                            <div className="css-170g9gq gatsby-image-wrapper" style={{position: "relative", overflow:"hidden" }}>
-                              <div aria-hidden="true" style={{width: "100%", paddingBottom: "100%"}}></div>
-                              <img alt="speaker"  aria-hidden="true" src="https://www.okta.com/oktane21/static/f03e06b8fd244bfad3a64eec69aa1418/2244e/Simone%2520Headshot%2520by%2520Megan%2520Schoenberg.jpg"/>
+                               <img alt="speaker"  aria-hidden="true" src="https://www.okta.com/oktane21/static/f03e06b8fd244bfad3a64eec69aa1418/2244e/Simone%2520Headshot%2520by%2520Megan%2520Schoenberg.jpg"/>
                             
                            </div>
                         </div>

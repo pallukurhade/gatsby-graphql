@@ -10,8 +10,11 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+  <div className="container">
+  <div className="row justify-content-md-center">
+  <div className='blogTemplate'>
     <Seo title="Home" />
-    <h1>Hi people</h1>
+    <h1>Hi Team</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
@@ -25,6 +28,9 @@ const IndexPage = () => (
     <p>
       <Link to="/test-homepage/">Go to test homepage </Link> 
     </p>
+  </div>
+  </div>  
+   </div>
   </Layout>
 )
 
